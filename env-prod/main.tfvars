@@ -146,3 +146,14 @@ alb = {
 }
 
 ACM_ARN = "arn:aws:acm:us-east-1:037402781494:certificate/6078a0ef-dda1-4b97-8964-2296abf4c304"
+
+#eks = {
+#  prod = {
+#    DESIRED_SIZE            = 1
+#    MAX_SIZE                = 1
+#    MIN_SIZE                = 1
+#    CREATE_ALB_INGRESS      = false
+#    CREATE_EXTERNAL_SECRETS = false
+#    INSTALL_KUBE_METRICS    = false
+#  }
+#}
