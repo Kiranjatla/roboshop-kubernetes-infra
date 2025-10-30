@@ -13,3 +13,4 @@ variable "alb" {}
 variable "public_zone_id" {}
 variable "ACM_ARN" {}
 variable "eks" {}
+variable "AWS_REGION" {}

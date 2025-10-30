@@ -155,5 +155,6 @@ eks = {
     CREATE_ALB_INGRESS      = false
     CREATE_EXTERNAL_SECRETS = false
     INSTALL_KUBE_METRICS    = false
+    AWS_REGION = "us-east-1"
   }
 }
