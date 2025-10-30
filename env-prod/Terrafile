@@ -27,6 +27,6 @@ alb:
         version: "main"
 
 eks:
-  source: "https://github.com/Kiranjatla/tf-module-eks.git"
+  source: "https://github.com/Kiranjatla/tf-module-eks"
   version: "main"
 
