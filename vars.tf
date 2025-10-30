@@ -13,4 +13,8 @@ variable "alb" {}
 variable "public_zone_id" {}
 variable "ACM_ARN" {}
 variable "eks" {}
-variable "AWS_REGION" {}
+# Root vars.tf
+variable "AWS_REGION" {
+  type    = string
+  default = "us-east-1"  # ← prevents interactive prompt
+}
