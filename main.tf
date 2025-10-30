@@ -115,7 +115,7 @@ module "EKS" {
   ENV                     = var.env
   PRIVATE_SUBNET_IDS      = flatten([for i, j in module.vpc : j.private_subnets["database"]["subnets"][*].id])
   PUBLIC_SUBNET_IDS       = flatten([for i, j in module.vpc : j.public_subnets["public"]["subnets"][*].id])
-  for_each = var.eks
+#  for_each = var.eks
   DESIRED_SIZE            = 1
   MAX_SIZE                = 1
   MIN_SIZE                = 1
