@@ -153,7 +153,7 @@ eks = {
     MAX_SIZE                = 1
     MIN_SIZE                = 1
     CREATE_ALB_INGRESS      = false
-    CREATE_EXTERNAL_SECRETS = false
+    CREATE_EXTERNAL_SECRETS = true
     INSTALL_KUBE_METRICS    = false
     AWS_REGION = "us-east-1"
   }
