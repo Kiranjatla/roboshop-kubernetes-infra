@@ -124,7 +124,7 @@ module "EKS" {
   INSTALL_KUBE_METRICS    = false
   AWS_REGION = var.AWS_REGION
   #  CREATE_SCP              = false
-  #  CREATE_NGINX_INGRESS    = true
+   CREATE_NGINX_INGRESS    = true
 }
 
 
